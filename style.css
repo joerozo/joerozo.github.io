@@ -55,7 +55,8 @@ header {
   background-size: cover;
   margin-bottom: 4em;
   text-align: center;
-  height: 500px;
+  height: 300px;
+  border-color: white;
  
 }
 
@@ -142,12 +143,13 @@ footer hr {
 /* ------------------- Grid -------------------*/
 
 .container {
-  background-color: #d3d3d3;
+  background-color: black;
   max-width: 50em;
   width:92%;
   margin-right: auto;
   border-right-color: #ff0000;
   margin-left: auto;
+  font-color: white;
 }
 
 .row {
