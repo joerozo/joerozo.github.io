@@ -121,6 +121,9 @@ footer hr {
 
 .center {
   text-align: center;
+  background-color: #DCDCDC;
+  border-color: black;
+  border-width: 5px;
 }
 
 @media screen and (min-width: 50em) {
@@ -142,17 +145,24 @@ footer hr {
 
 /* ------------------- Grid -------------------*/
 
+.containerBorder{
+  border-width: 25px;
+  border-color: black;
+}
+
 .container {
-  background-color: black;
+  background-color: gainsboro;
   max-width: 50em;
   width:92%;
   margin-right: auto;
   border-right-color: #ff0000;
   margin-left: auto;
   font-color: white;
+
 }
 
 .row {
+  background-color: gainsboro;
   clear: both;
   margin-right: -1%;
   margin-left:  -1%;
@@ -207,6 +217,7 @@ footer hr {
   margin-bottom: 1%;
   margin-top: 1%;
   width: 50%;
+  background-color: gainsboro;
 }
 
 .gallery a img {
