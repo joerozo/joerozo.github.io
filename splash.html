@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+<!-- stylesheets -->
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".resumeBox").hide();
+    $(".topBox").hide();
+    $(".centerBox").hide();
+    $(".button1").click(function(){
+        $( ".resumeBox" ).slideToggle( "slow", function() {});
+        $(".centerBox").hide();
+    });
+        $(".buttonBox").click(function(){
+        $(".resumeBox").hide();
+        $(".centerBox").show();
+    });    
+    $(".container").click(function(){
+        $(".container").hide();
+        $(".redBorder").hide();
+        $( ".topBox" ).slideDown( "slow", function() {});
+        $( ".centerBox" ).slideDown( "slow", function() {});
+    });
+});
+</script>
+
+</head>
+<body>
+
+
+
+<div class="resumeBox">
+<button type="button" class="buttonBox">Menu</button>
+<div class="resume">
+<object width="500" height="650" data="resume.pdf"></object>
+</div>
+</div>
+
+<div class="centerBox"> 
+	<div class="button1">view my resume</div>
+	<div class="button">this is the second centerBox</div>
+</div>
+
+<div class="redBorder">
+	<div class="container">
+		<p> Welcome </p>
+	</div>
+</div>
+<div class="bottomBox">
+<center><font size="3" color="red">joerozo.com</font></center>
+</div>
+
+</body>
+
+
+
+</html>
