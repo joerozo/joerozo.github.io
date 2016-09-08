@@ -6,12 +6,22 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="jquery-1.12.4.min.js"></script>
 
 <script>
 $(document).ready(function(){
     $(".resumeBox").hide();
     $(".topBox").hide();
     $(".centerBox").hide();
+    $(".contactBox").hide();
+        $(".button3").click(function(){
+        $( ".contactBox" ).slideToggle( "slow", function() {});
+        $(".centerBox").hide();
+    });
+        $(".buttonBox3").click(function(){
+        	$( ".contactBox" ).hide();
+        	$(".centerBox").show();
+        });
     $(".button1").click(function(){
         $( ".resumeBox" ).slideToggle( "slow", function() {});
         $(".centerBox").hide();
@@ -37,7 +47,7 @@ $(document).ready(function(){
 <div class="resumeBox">
 <button type="button" class="buttonBox">Return to menu</button>
 <div class="resume">
-<object width="500" height="650" data="resume.pdf" ></object>
+<object width="650" height="650" data="resume.pdf" ></object>
 </div>
 </div>
 
@@ -45,12 +55,22 @@ $(document).ready(function(){
 	<div class="button1">view my resume</div>
 	<div class="button2"><a href="https://github.com/joerozo">go to my github</a></div>
 	<div class="button3">about me</div> 
+	<div class="button3">contact</div>
+	<div class="button3">technical writings</div>
+	<div class="button3">technical writings</div>
+	<div class="button3">technical writings</div>
+	<object align = "bottom"><object width="250" height="300" data="image1.png" ></object></object>
+
 </div>
 
 <div class="redBorder">
 	<div class="container">
-		<p> Welcome </p>
+		<p> Welcome</p>
 	</div>
+</div>
+
+<div class="contactBox">
+	<button type="button" class="buttonBox3">Return to menu</button>
 </div>
 <div class="bottomBox">
 <center><font size="3" color="red">joerozo.com</font></center>

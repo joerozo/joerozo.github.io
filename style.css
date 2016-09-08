@@ -27,6 +27,24 @@ body {
 
 }
 
+.contactBox{
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 585px;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    opacity : 0.65;
+    filter: alpha(opacity=50);
+}
+.buttonBox{
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
 
 .buttonBox{
   position: relative;
@@ -35,12 +53,12 @@ body {
 }
 
 .resumeBox{
-  margin-left: auto;
+  margin-left: 300px;
   margin-right: auto;
-  margin: auto;
-  width: 50%;
-  position: absolute;
+  width: 80%;
   display: block;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .resume{
@@ -48,7 +66,7 @@ body {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
   position: absolute;
   display: block;
 }
@@ -66,6 +84,9 @@ body {
   box-shadow: 2px 2px red;
 }
 
+.aboutMe{
+
+}
 
 .button1 {
    border: 1px solid #0a3c59;
@@ -284,3 +305,8 @@ body {
     position: relative; 
     z-index: 2;
     }
+
+.object{
+  margin-left: auto;
+  margin-top: auto;
+}
