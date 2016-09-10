@@ -357,6 +357,27 @@ body {
    margin-bottom: 5px;
    }
 
+.sqlProject{
+    border-radius: 25px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    font-family: "Courier New";
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 650px;
+    overflow: auto;
+    margin-left: 25%;
+    margin-top: 0%;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    opacity : 0.80;
+    filter: alpha(opacity=80);  
+}
+
 .workMenuButton1PopUp{
     border-style: solid;
     border-color: red;
