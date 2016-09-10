@@ -1,0 +1,23 @@
+/*********************************************************************/
+/* Program: Lab IV                                                   */
+/* Author: Joseph Rozo                                               */
+/* Cruzid: jrozo@ucsc.edu                                            */
+/* Submitted files: README, StoreApplication.java	             */
+/*                                                                   */
+/*                                                                   */
+/* CMPS 12B/M,Spring 2015                                            */
+/* Lab Assignment #4                                                 */
+/* March 3rd, 2015                                                   */
+/*                                                                   */
+/* In this lab the connection to the db is established in the 	     */
+/* Driver.java, in the Driver class we call the methods from the     */
+/* StoreApplication.java, majority of the methods I build using a    */
+/* a statement to execute and store the SQL query in the String      */
+/* sqlString, the statement was ran through an executeQuery method   */
+/* we then ran a loop filling the lists with the values of the query */
+/* the last method physically altered the databases, so a 	     */
+/* preparedStatement was required, the preparedStatement was ran     */
+/* through an executeUpdate method, this physically updates the      */
+/* DB, if the DB is successfully updated we get a printed statement  */
+/* saying the database was successfully updated 		     */
+/*********************************************************************/

@@ -1,0 +1,16 @@
+/*********************************************************************/
+/* Program: Java LinkedList Matrix Calculator                        */
+/* Author: Joseph Rozo                                               */
+/* jrozo@ucsc.edu	                                             */
+/* Submitted files: README, MakeFile, Sparse, Matrix, MatrixTest     */
+/* MatrixClient                                                      */
+/*                                                                   */
+/*                                                                   */
+/*                                                                   */
+/* CMPS 101, Summer 2015                                             */
+/* Program Assignment #3                                             */
+/* July 22nd , 2015                                                  */
+/* This program allows us to perform Matrix operations on one or more*/ 
+/* matrices.The Matrices are populated and anipulation methods are 	 */
+/* used in Matrix.java .                                             */
+/*********************************************************************/

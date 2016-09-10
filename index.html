@@ -10,10 +10,18 @@
 
 <script>
 $(document).ready(function(){
+	$(".workMenuButton1PopUp").hide();
+	$(".workAndProjectsMenu").hide();
     $(".resumeBox").hide();
     $(".topBox").hide();
     $(".centerBox").hide();
     $(".contactBox").hide();
+    	$(".workMenuButton1").mouseenter(function(){
+    		$(".workMenuButton1PopUp").show();
+    	});
+    	$(".workMenuButton1").mouseleave(function(){
+    		$(".workMenuButton1PopUp").hide();
+    	});
         $(".button3").click(function(){
         $( ".contactBox" ).slideToggle( "slow", function() {});
         $(".centerBox").hide();
@@ -36,6 +44,10 @@ $(document).ready(function(){
         $( ".topBox" ).slideDown( "slow", function() {});
         $( ".centerBox" ).slideDown( "slow", function() {});
     });
+    $(".button4").click(function(){
+        $( ".workAndProjectsMenu" ).slideToggle( "slow", function() {});
+        $(".centerBox").hide();
+    });
 });
 </script>
 
@@ -54,13 +66,18 @@ $(document).ready(function(){
 <div class="centerBox"> 
 	<div class="button1">view my resume</div>
 	<div class="button2"><a href="https://github.com/joerozo">go to my github</a></div>
-	<div class="button3">about me</div> 
 	<div class="button3">contact</div>
-	<div class="button3">technical writings</div>
-	<div class="button3">technical writings</div>
+	<div class="button4">code, work, and projects</div> 
 	<div class="button3">technical writings</div>
 	<object align = "bottom"><object width="250" height="300" data="image1.png" ></object></object>
 
+</div>
+
+<div class="workAndProjectsMenu"> 
+	<div class="workMenuButton1">SQL Code</div>
+	<div class="workMenuButton1PopUp">
+		Program that demonstrates how to utilize java to connect a SQL database and execute Queries 
+	</div>
 </div>
 
 <div class="redBorder">
@@ -71,6 +88,9 @@ $(document).ready(function(){
 
 <div class="contactBox">
 	<button type="button" class="buttonBox3">Return to menu</button>
+	<div class="redFill"><p> <i>by email:</i> jrozo@ucsc.edu</p></div>
+	<br>
+	<div class="redFill"><p> <i>by phone:</i> (707)299-8538</p></div>
 </div>
 <div class="bottomBox">
 <center><font size="3" color="red">joerozo.com</font></center>
