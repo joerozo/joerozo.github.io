@@ -502,6 +502,7 @@ body {
 }
 
 .bottomBox{
+  margin-bottom: 0%;
   position: absolute;
   right: 0;
   bottom: 0;
