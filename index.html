@@ -101,7 +101,11 @@ $(document).ready(function(){
 	<div class="button3">contact</div>
 	<div class="button4">code, work, and projects</div> 
 	<div class="button3">technical writings</div>
-
+	<w3-test-directive></w3-test-directive>
+	The current date is
+		<% import datetime
+			print datetime.date.today().strftime("%d:%m:%y")
+		%>
 	<object width="250" height="300" data="img/image1.png" class="image1"></object>
 </div>
 
@@ -249,7 +253,14 @@ public class StoreApplication {
 	<div class="redFill"><p> <i>by phone:</i> (707)299-8538</p></div>
 </div>
 
-
+<script>
+var app = angular.module("myApp", []);
+app.directive("w3TestDirective", function() {
+    return {
+        template : "<h1>Made by a directive!</h1>"
+    };
+});
+</script>
 
 
 </body>
